@@ -1,0 +1,28 @@
+---
+abstract: 'Automatically create test data for DBIx::Class'
+author:
+  - 'Gareth Harper (cpan@spansh.co.uk)'
+build_requires:
+  ExtUtils::MakeMaker: 0
+  Test::DBIx::Class: 0.4
+  Test::More: 0.98
+  Test::Pod::Coverage: 1.08
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.132140'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Test-DBIx-Class-Factory
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  DateTime::Event::Random: 0.03
+  Moose: 2.1
+  String::Random: 0.22
+  perl: 5.010001
+version: 0.01
