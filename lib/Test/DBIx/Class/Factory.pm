@@ -1,5 +1,5 @@
 package Test::DBIx::Class::Factory;
-$Test::DBIx::Class::Factory::VERSION = '0.02';
+$Test::DBIx::Class::Factory::VERSION = '0.03';
 use strict;
 use warnings;
 
@@ -147,7 +147,7 @@ sub random_string {
     my $self = shift;
 
     my $string = '';
-    my $words = shift // 0;
+    my $words = shift || 0;
     if ($words <= 0) {
         $words = int(rand(10))+1;
     }
